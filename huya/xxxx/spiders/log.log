@@ -1,0 +1,159 @@
+2022-05-02 21:33:56 [scrapy.utils.log] WARNING: 正在采集第1页的数据
+2022-05-02 21:33:56 [scrapy.core.scraper] ERROR: Spider error processing <POST http://www.cninfo.com.cn/new/disclosure> (referer: None)
+Traceback (most recent call last):
+  File "D:\python3.8\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\python3.8\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\python3.8\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\站点项目\xxxx\xxxx\spiders\juchao.py", line 22, in parse
+    datas = response.get('classifiedAnnouncements')
+AttributeError: 'TextResponse' object has no attribute 'get'
+2022-05-02 21:34:44 [scrapy.utils.log] WARNING: 正在采集第1页的数据
+2022-05-02 21:34:45 [scrapy.utils.log] WARNING: 正在采集第2页的数据
+2022-05-02 21:34:45 [scrapy.utils.log] WARNING: 正在采集第3页的数据
+2022-05-02 21:34:45 [scrapy.utils.log] WARNING: 正在采集第4页的数据
+2022-05-02 21:34:46 [scrapy.utils.log] WARNING: 正在采集第5页的数据
+2022-05-02 21:34:46 [scrapy.utils.log] WARNING: 正在采集第6页的数据
+2022-05-02 21:34:46 [scrapy.utils.log] WARNING: 正在采集第7页的数据
+2022-05-02 21:34:46 [scrapy.utils.log] WARNING: 正在采集第8页的数据
+2022-05-02 21:34:47 [scrapy.utils.log] WARNING: 正在采集第9页的数据
+2022-05-02 21:34:47 [scrapy.utils.log] WARNING: 正在采集第10页的数据
+2022-05-02 21:34:48 [scrapy.utils.log] WARNING: 正在采集第11页的数据
+2022-05-02 21:34:48 [scrapy.utils.log] WARNING: 正在采集第12页的数据
+2022-05-02 21:34:49 [scrapy.utils.log] WARNING: 正在采集第13页的数据
+2022-05-02 21:34:49 [scrapy.utils.log] WARNING: 正在采集第14页的数据
+2022-05-02 21:34:50 [scrapy.utils.log] WARNING: 正在采集第15页的数据
+2022-05-02 21:34:50 [scrapy.utils.log] WARNING: 正在采集第16页的数据
+2022-05-02 21:34:50 [scrapy.utils.log] WARNING: 正在采集第17页的数据
+2022-05-02 21:34:51 [scrapy.utils.log] WARNING: 正在采集第18页的数据
+2022-05-02 21:34:51 [scrapy.utils.log] WARNING: 正在采集第19页的数据
+2022-05-02 21:34:51 [scrapy.utils.log] WARNING: 正在采集第20页的数据
+2022-05-02 21:36:28 [scrapy.utils.log] WARNING: 正在采集第1页的数据
+2022-05-02 21:36:28 [scrapy.core.scraper] ERROR: Spider error processing <POST http://www.cninfo.com.cn/new/disclosure> (referer: None)
+Traceback (most recent call last):
+  File "D:\python3.8\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\python3.8\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\python3.8\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\站点项目\xxxx\xxxx\spiders\juchao.py", line 24, in parse
+    title = data.get('announcementTitle')
+AttributeError: 'list' object has no attribute 'get'
+2022-05-02 21:36:40 [scrapy.utils.log] WARNING: 正在采集第1页的数据
+2022-05-02 21:36:40 [scrapy.core.scraper] ERROR: Spider error processing <POST http://www.cninfo.com.cn/new/disclosure> (referer: None)
+Traceback (most recent call last):
+  File "D:\python3.8\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\python3.8\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\python3.8\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python3.8\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python3.8\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\站点项目\xxxx\xxxx\spiders\juchao.py", line 24, in parse
+    title = data.get('announcementTitle')[0]
+AttributeError: 'list' object has no attribute 'get'
+2022-05-02 21:39:38 [scrapy.utils.log] WARNING: 正在采集第1页的数据
+2022-05-02 21:39:39 [scrapy.utils.log] WARNING: 正在采集第2页的数据
+2022-05-02 21:39:39 [scrapy.utils.log] WARNING: 正在采集第3页的数据
+2022-05-02 21:40:54 [scrapy.utils.log] WARNING: 正在采集第1页的数据
+2022-05-02 21:40:55 [scrapy.utils.log] WARNING: 正在采集第2页的数据
+2022-05-02 21:40:55 [scrapy.utils.log] WARNING: 正在采集第3页的数据
+2022-05-02 21:41:12 [scrapy.utils.log] WARNING: 正在采集第1页的数据
+2022-05-02 21:41:13 [scrapy.utils.log] WARNING: 正在采集第2页的数据
+2022-05-02 21:41:13 [scrapy.utils.log] WARNING: 正在采集第3页的数据
+2022-05-02 21:41:13 [scrapy.utils.log] WARNING: 正在采集第4页的数据
+2022-05-02 21:41:14 [scrapy.utils.log] WARNING: 正在采集第5页的数据
+2022-05-02 21:41:14 [scrapy.utils.log] WARNING: 正在采集第6页的数据
+2022-05-02 21:41:15 [scrapy.utils.log] WARNING: 正在采集第7页的数据
+2022-05-02 21:41:15 [scrapy.utils.log] WARNING: 正在采集第8页的数据
+2022-05-02 21:41:15 [scrapy.utils.log] WARNING: 正在采集第9页的数据
+2022-05-02 21:41:16 [scrapy.utils.log] WARNING: 正在采集第10页的数据
+2022-05-02 21:41:16 [scrapy.utils.log] WARNING: 正在采集第11页的数据
+2022-05-02 21:41:17 [scrapy.utils.log] WARNING: 正在采集第12页的数据
+2022-05-02 21:41:17 [scrapy.utils.log] WARNING: 正在采集第13页的数据
+2022-05-18 17:00:45 [scrapy.utils.log] WARNING: 正在爬取第1页数据
+2022-05-18 17:00:46 [scrapy.utils.log] WARNING: 正在爬取第2页数据
+2022-05-18 17:00:46 [scrapy.utils.log] WARNING: 正在爬取第3页数据
+2022-05-18 17:00:47 [scrapy.utils.log] WARNING: 正在爬取第4页数据
+2022-05-18 17:00:47 [scrapy.utils.log] WARNING: 正在爬取第5页数据
+2022-05-18 17:00:48 [scrapy.utils.log] WARNING: 正在爬取第6页数据
+2022-05-18 17:00:48 [scrapy.utils.log] WARNING: 正在爬取第7页数据
+2022-05-18 17:00:49 [scrapy.utils.log] WARNING: 正在爬取第8页数据
+2022-05-18 17:00:49 [scrapy.utils.log] WARNING: 正在爬取第9页数据
+2022-05-18 17:00:50 [scrapy.utils.log] WARNING: 正在爬取第10页数据
+2022-05-18 17:01:00 [scrapy.utils.log] WARNING: 正在爬取第1页数据
+2022-05-18 17:01:00 [scrapy.utils.log] WARNING: 正在爬取第2页数据
+2022-05-18 17:01:01 [scrapy.utils.log] WARNING: 正在爬取第3页数据
+2022-05-18 17:01:01 [scrapy.utils.log] WARNING: 正在爬取第4页数据
+2022-05-18 17:01:01 [scrapy.utils.log] WARNING: 正在爬取第5页数据
+2022-05-18 17:01:01 [scrapy.utils.log] WARNING: 正在爬取第6页数据
+2022-05-18 17:01:01 [scrapy.utils.log] WARNING: 正在爬取第7页数据
+2022-05-18 17:01:02 [scrapy.utils.log] WARNING: 正在爬取第8页数据
+2022-05-18 17:01:02 [scrapy.utils.log] WARNING: 正在爬取第9页数据
+2022-05-18 17:01:02 [scrapy.utils.log] WARNING: 正在爬取第10页数据
+2022-05-18 17:19:22 [scrapy.utils.log] WARNING: 正在爬取第1页数据
+2022-05-18 17:19:22 [scrapy.utils.log] WARNING: 正在爬取第2页数据
+2022-05-18 17:19:22 [scrapy.utils.log] WARNING: 正在爬取第3页数据
+2022-05-18 17:19:23 [scrapy.utils.log] WARNING: 正在爬取第4页数据
+2022-05-18 17:19:23 [scrapy.utils.log] WARNING: 正在爬取第5页数据
+2022-05-18 17:19:23 [scrapy.utils.log] WARNING: 正在爬取第6页数据
+2022-05-18 17:19:23 [scrapy.utils.log] WARNING: 正在爬取第7页数据
+2022-05-18 17:19:24 [scrapy.utils.log] WARNING: 正在爬取第8页数据
+2022-05-18 17:19:24 [scrapy.utils.log] WARNING: 正在爬取第9页数据
+2022-05-18 17:19:24 [scrapy.utils.log] WARNING: 正在爬取第10页数据
